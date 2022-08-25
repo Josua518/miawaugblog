@@ -1,7 +1,7 @@
 /*------------------------------------------------------------------
 [Master Stylesheet]
 
-Project:    Folioflix
+Project:    Josua Edbert 9C
 -------------------------------------------------------------------*/
 /*------------------------------------------------------------------
 [Table of contents]
@@ -47,6 +47,11 @@ html{
     scroll-behavior: smooth;
 }
 body{
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -khtml-user-select:none;
+    -ms-user-select:none;
+    -moz-user-select:none;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
 }
@@ -834,6 +839,11 @@ background: linear-gradient(33deg, rgba(242,242,255,1) 0%, rgba(235,249,255,1) 1
     margin-bottom: 4px;
 }
 .contact-information-content p{
+    -webkit-touch-callout:text;
+    -webkit-user-select:text;
+    -khtml-user-select:text;
+    -ms-user-select:text;
+    -moz-user-select:text;
     font-size: 16px;
     line-height: 22px;
     color: var(--white-color);
